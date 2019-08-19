@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB673145230AC485007880CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB673144230AC485007880CE /* Images.xcassets */; };
 		EB8B790A230AA0C200243AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B7909230AA0C200243AD1 /* AppDelegate.swift */; };
 		EB8B790C230AA0C200243AD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B790B230AA0C200243AD1 /* ViewController.swift */; };
 		EB8B790F230AA0C200243AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8B790D230AA0C200243AD1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB673144230AC485007880CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB8B7906230AA0C200243AD1 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8B7909230AA0C200243AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8B790B230AA0C200243AD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				EB8B7910230AA0C300243AD1 /* Assets.xcassets */,
 				EB8B7912230AA0C300243AD1 /* LaunchScreen.storyboard */,
 				EB8B7915230AA0C300243AD1 /* Info.plist */,
+				EB673144230AC485007880CE /* Images.xcassets */,
 			);
 			path = DouYuZB;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8B7914230AA0C300243AD1 /* LaunchScreen.storyboard in Resources */,
+				EB673145230AC485007880CE /* Images.xcassets in Resources */,
 				EB8B7911230AA0C300243AD1 /* Assets.xcassets in Resources */,
 				EB8B790F230AA0C200243AD1 /* Main.storyboard in Resources */,
 			);
@@ -282,9 +286,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXSPTD39DR;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.linlei.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,9 +306,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXSPTD39DR;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.linlei.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
